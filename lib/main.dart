@@ -62,12 +62,16 @@ class _MyAppState extends State<MyApp> {
                 'Suhu dalam Kelvin',
               ),
               Text(
+                style:
+                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                 '$fahrenheit',
               ),
               const Text(
                 'Suhu dalam Fahrenheit',
               ),
               Text(
+                style:
+                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                 '$kelvin',
               ),
               ElevatedButton(
